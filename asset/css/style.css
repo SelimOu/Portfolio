@@ -22,8 +22,9 @@ section {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    padding: 5%;
-    padding-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
 
 .custom-toggler-icon {
@@ -69,12 +70,7 @@ header {
     height: 40%;
 }
 
-#photoselim {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10%;
-    border-radius: 110px;
-}
+
 
 #txt {
     max-width: 100%;
@@ -96,7 +92,13 @@ p {
 }
 
 #CoachTracker {
-    width: 40%;
+    width: 400px;
+
+}
+
+#CoachTrackerContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .stacks {
@@ -106,7 +108,6 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
 }
 
 h2 {
@@ -147,10 +148,9 @@ h2 {
 footer {
     background-color: rgba(178, 177, 177, 0.482);
     height: 21vh;
-    ;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     font-size: 200%;
 }
@@ -198,5 +198,6 @@ footer {
 #sctc {
     display: flex;
     align-items: center;
+    padding-bottom: 5%;
 
 }
